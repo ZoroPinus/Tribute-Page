@@ -26,7 +26,7 @@ li {
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-image: url(bg3.JPG);
+  background-image: url(/img/bg3.jpg);
   background-position: center;
   background-size: contain;
 }
@@ -36,7 +36,7 @@ li {
   font-family: "Lexend Giga", sans-serif;
 }
 
-#img-div {
+.img-div {
   display: flex;
   background: rgba(34, 134, 210, 0.55);
   justify-content: space-evenly;
@@ -68,4 +68,9 @@ li {
   font-weight: bold;
   color: rgba(80, 82, 199, 0.69);
   text-decoration: underline;
+}
+@media (max-width: 600px) {
+  .img-div {
+    flex-direction: column;
+  }
 }
