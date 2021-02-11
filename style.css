@@ -21,14 +21,15 @@ ul {
 li {
   margin: 16px;
 }
-
+.bg_image {
+  background-image: url(./img/bg3.jpg);
+  background-position: center;
+  background-size: contain;
+}
 #main {
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-image: url(/img/bg3.jpg);
-  background-position: center;
-  background-size: contain;
 }
 #title {
   font-size: 4em;
