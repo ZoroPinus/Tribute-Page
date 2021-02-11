@@ -3,7 +3,6 @@ body {
   font-family: "Roboto", sans-serif;
   color: whitesmoke;
   margin: 0;
-  background-image: url(/vintage-wallpaper.png);
 }
 p {
   font-size: 1.3em;
@@ -27,7 +26,7 @@ li {
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-image: url(/bg3.jpg);
+  background-image: url(/bg3.JPG);
   background-position: center;
   background-size: contain;
 }
@@ -69,9 +68,4 @@ li {
   font-weight: bold;
   color: rgba(80, 82, 199, 0.69);
   text-decoration: underline;
-}
-@media only screen and (max-width: 600px) {
-  .img-div {
-    flex-direction: column;
-  }
 }
