@@ -3,9 +3,6 @@ body {
   font-family: "Roboto", sans-serif;
   color: whitesmoke;
   margin: 0;
-  background-image: url(/bg3.jpg);
-  background-position: center;
-  background-size: contain;
 }
 p {
   font-size: 1.3em;
@@ -29,6 +26,9 @@ li {
   display: flex;
   flex-direction: column;
   text-align: center;
+  background-image: url(/bg3.jpg);
+  background-position: center;
+  background-size: contain;
 }
 #title {
   font-size: 4em;
