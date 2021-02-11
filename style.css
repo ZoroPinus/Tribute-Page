@@ -3,7 +3,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: whitesmoke;
   margin: 0;
-  background-image: url(/img/vintage-wallpaper.png);
+  background-image: url(/vintage-wallpaper.png);
 }
 p {
   font-size: 1.3em;
@@ -27,7 +27,7 @@ li {
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-image: url(/img/bg3.jpg);
+  background-image: url(/bg3.jpg);
   background-position: center;
   background-size: contain;
 }
