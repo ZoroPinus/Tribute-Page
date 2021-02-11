@@ -22,7 +22,7 @@ li {
   margin: 16px;
 }
 .bg_image {
-  background-image: url(./img/bg3.JPG);
+  background-image: url("./img/bg3.JPG");
   background-position: center;
   background-size: contain;
 }
